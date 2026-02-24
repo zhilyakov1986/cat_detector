@@ -1,0 +1,15 @@
+[project]
+name = "refresher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastai",
+    "gradio<4",
+    "huggingface-hub<0.28.0",
+    "pydantic<2",
+    "torch>=2.0.0,<2.7",
+    "torchaudio<2.6",
+    "torchvision<0.22",
+]
